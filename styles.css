@@ -782,7 +782,7 @@ header .paralex-con .foreground{
 }
 @media only screen and (max-width:500px){
     #news{
-        height: 80vh;
+        height: 90vh;
     }
     .news-container .news-col{
         width: 45%;
