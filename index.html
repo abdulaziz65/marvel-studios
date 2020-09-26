@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ----------------Stylesheets Links------------- -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+
+    <!--Jquery-->
+    
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+
+    <title>Marvel</title>
+</head>
+<body>
+    <script>
+        (function($){
+          $(document).on('contextmenu', 'img', function() {
+              return false;
+          })
+        })(jQuery);
+        </script>
+
+<button onclick="topFunction()" id="scrolltopBtn" title="Back to Top"><i class="fa fa-arrow-up aria-hidden:true"></i></button>
+    <div class="main-wrapper">
+        <section id="header">
+            <div class="header-container">
+                <nav>
+                    <div class="logo">
+                        <a href="index.html"><img src="images/Marvel Studios-Logo.png" alt=""></a>
+                    </div>
+                    <div class="menu">
+                            <input type="checkbox" name="check" id="check">
+                            <label for="check" class="checkbtn">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <i class="fa fa-times" aria-hidden="true"></i>
+                            </label> 
+                        <ul class="menu-list">
+                            <li><a href="#models">Characters</a></li>
+                            <li><a href="#movies">Movies</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="#news">News</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <header>
+                    <div class="background"></div>
+                    <div class="paralex-con">
+                        <div id="spider-man"><img src="images/spiderman.png" alt=""></div>
+                        <div id="vision"><img src="images/vision.png" alt=""></div>
+                        <div id="iron-man"><img src="images/ironman.png" alt=""></div>
+                        <div id="falcon"><img src="images/falcon.png" alt=""></div>
+                        <div class="foreground">
+                            <img src="images/header-bg2.png" alt="" class="header-desktop">
+                            <img src="images/header-mobile.png" alt="" class="header-mobile">
+                        </div>
+                    </div>
+                    <div class="header-social-menu">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="slider-nav">
+                        <ul class="navigation">
+                            <a href="" id="sn1"><li>01</li></a>
+                            <a href="" id="sn2"><li>02</li></a>
+                            <a href="" id="sn3"><li>03</li></a>
+                            <a href="" id="sn4"><li>04</li></a>
+                        </ul>
+                        <div class="slider-nav-btn">
+                            <a href=""><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </section> <!-- Header Section end -->
+
+        <section id="models">
+            <div class="section-title">
+                <h2>Characters</h2>
+                <h4>Marvel Famous Characters</h4>
+            </div>
+            <div class="models-carousle">
+                <div class="container">
+                    <!--slider------------------->
+                    <ul id="autoWidth" class="cs-hidden">
+                    <!--1------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/Ant-Man.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/AntMan-logo.png" class="logo" width="100px" style="height: auto;">
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    <!--2------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/DeadPool.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/Deadpool-logo.png" class="logo" >
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    <!--3------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/SpiderMan.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/SpiderMan-logo.png" class="logo" >
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    <!--4------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/Venom.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/Venom-logo.png" class="logo" >
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    <!--5------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/Thor.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/Thor-logo.png" class="logo">
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    <!--6------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                    <div class="box">
+                    <p class="marvel">MARVEL</p>
+                    <!--model-->
+                    <img src="img/IronMan.png" class="model">
+                    <!--details-->
+                    <div class="details">
+                    <!--logo-character-->
+                    <img src="img/IronMan-logo.png" class="logo" >
+                    <!--character-details-->
+                    </div>
+                    
+                    </div>
+                    </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </section> <!-- Models Section End -->
+
+        <section id="movies">
+            <div class="section-title">
+                <h2>Movies</h2>
+                <h4>MCU Movies</h4>
+            </div>
+            <div class="movies-container">
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_group.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Avengers</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_thor.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Thor</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_cap.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Captain America</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_blackpanther.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Black Panther</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_group.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Avengers</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_thor.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Thor</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_cap.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Captain America</h3>
+                    </div>
+                </div>
+
+                <div class="movies-item">
+                    <div class="movies-item-img">
+                        <img src="images/poster_gold_blackpanther.jpg" alt="">
+                    </div>
+                    <div class="movies-item-info">
+                        <h3>Black Panther</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="section-title">
+                <h2>News</h2>
+                <h4>MCU News</h4>
+            </div>
+            <div class="news-container">
+                <div class="news-col">
+                    <div class="news-img">
+                        <img src="images/news1.jpeg" alt="">
+                    </div>
+                    <div class="news-info">
+                        <h5>Spider-Man: Miles Morales Game Set for 2020 Release</h5>
+                    </div>
+                </div>
+
+                <div class="news-col">
+                    <div class="news-img">
+                        <img src="images/news2.jpg" alt="">
+                    </div>
+                    <div class="news-info">
+                        <h5>Explaining The New Mutants’ Demon Bear Saga</h5>
+                    </div>
+                </div>
+
+                <div class="news-col">
+                    <div class="news-img">
+                        <img src="images/news3.jpg" alt="">
+                    </div>
+                    <div class="news-info">
+                        <h5>Marvel Launches New Graphic Novel Line for Young Readers</h5>
+                    </div>
+                </div>
+
+                <div class="news-col">
+                    <div class="news-img">
+                        <img src="images/news4.png" alt="">
+                    </div>
+                    <div class="news-info">
+                        <h5>Marvel Reveals Full Comic-Con@Home Schedule</h5>
+                    </div>
+                </div>
+            </div>
+        </section><!-- News Section End-->
+
+        <section id="footer">
+            <footer>
+                <div class="footer-items-con">
+                    <div class="footer-logo">
+                        <img src="images/Marvel Studios-Logo.png" alt="">
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="">Story</a></li>
+                            <li><a href="">Characters</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Posters</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social-menu">
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-credits">
+                    Copyrights 2020 All Rights Reserved
+                </div>
+            </footer>
+        </section>
+    </div>
+
+
+
+
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="main.js"></script>
+</body>
+</html>
